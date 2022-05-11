@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de média</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Calculadora de média</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Insira os valores separados por vírgula</p>
+            <input id="numeros" type="text" name="" placeholder="12,5,7,42">
+            <div class="botoes">
+                <input id="btncalc" type="button" value="Calcular média" onclick="calcularMedia()">
+                <input id="btnapag" type="button" value="Apagar" onclick="apagar()">
+            </div>
+            <div class="resultados">
+                <div class="quant">
+                    <p>Total de números</p>
+                    <input id="quant" type="text" readonly>
+                </div>
+                <div class="res">
+                    <p>Média</p>
+                    <input id="res" type="text" readonly>
+                </div>
+            </div>
+            <p id="erro">Insira no mínimo dois valores!</p>
+        </div>
+    </section>
+
+    <footer><a href="">Feito por Arthur Albuquerque</a></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

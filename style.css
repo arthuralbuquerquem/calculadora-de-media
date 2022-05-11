@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #008cff;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #FFF;
+    font-size: 50px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    border: 1px solid #CCC;
+}
+
+#numeros {
+    width: 300px;
+    height: 35px;
+    margin: 10px 0px 15px 0px;
+    padding: 10px;
+}
+
+#btncalc {
+    width: 145px;
+    height: 35px;
+    margin-right: 6px;
+    background-color: rgba(0, 158, 0, 0.685);
+    color: #FFF;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+#btncalc:hover {
+    background-color: rgba(0, 126, 0, 0.685);
+}
+
+#btnapag {
+    width: 145px;
+    height: 35px;
+    background-color: rgba(175, 175, 175, 0.685);
+    color: #000;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+#btnapag:hover {
+    background-color: rgba(136, 136, 136, 0.685);
+}
+
+.resultados {
+    display: flex;
+}
+
+.resultados p {
+    margin: 30px 0 10px 0;
+}
+
+.resultados input {
+    background-color: #CCC;
+}
+
+#quant {
+    width: 145px;
+    height: 35px;
+    margin-right: 10px;
+    padding: 5px 5px 5px 10px;
+}
+
+#res {
+    width: 145px;
+    height: 35px;
+    padding: 5px 5px 5px 10px;
+}
+
+#erro {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+    color: #F00;
+}
+
+
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
